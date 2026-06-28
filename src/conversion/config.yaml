@@ -1,0 +1,24 @@
+roughness:           # Manning n by material/class
+  BTCT: 0.013
+  concrete: 0.013
+  PVC: 0.011
+  HDPE: 0.012
+default_roughness: 0.013
+canal: { roughness: 0.025, default_width: 1.0, default_depth: 0.5, side_slope: 1.0 }
+river: { roughness: 0.035, default_width: 5.0, default_depth: 2.0, side_slope: 1.0 }
+crosssection:
+  yz_points: 5       # points per derived trapezoidal YZ profile
+storage:
+  street_storage_factor: 1.0   # streetStorageArea = factor * area
+  storage_type: reservoir
+  entrance_loss: 0.5
+  exit_loss: 1.0
+structure:
+  weir_corrcoeff: 1.0
+  orifice_corrcoeff: 0.63
+coupling:
+  default_type: lateral        # branch->2D
+  sewer_type: vertical         # street-inlet (gully) coupling
+nwrw:
+  roof_surface_type: closed_paved
+  roof_slope_type: sloped

@@ -1,0 +1,1 @@
+STUB. Combines a conversion base model with a chosen rainfall scenario (fills the `[Meteo]` `.bui` slot, boundary `.bc` values, and NWRW rain), then invokes the Delft3D/DIMR binary on the folder. Not implemented yet.

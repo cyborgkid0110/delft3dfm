@@ -1,0 +1,14 @@
+crs:
+  in: 4326          # WGS84 input CSVs
+  out: 32648        # UTM 48N (projected metric) for Delft3D files
+model:
+  refdate: 20200101
+  tstart: 0.0
+  tstop: 3600.0
+  dtuser: 60.0
+  bedlevuni: 0.0
+  waterlevini: 0.05
+  allowbndatbifurcation: 1
+output:
+  hisinterval: 60.0
+  mapinterval: 300.0

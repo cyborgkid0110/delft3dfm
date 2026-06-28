@@ -1,0 +1,12 @@
+edge_length_1d: 100.0    # m along branch centerlines
+grid_2d:
+  type: rectilinear      # rectilinear | triangular
+  dx: 100.0
+  dy: 100.0
+refine:
+  enabled: false
+  levels: 1
+clip:
+  to_ground_polygons: true
+link:
+  type: lateral          # 1d2d coupling default
