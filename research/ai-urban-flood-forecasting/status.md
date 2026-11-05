@@ -1,1 +1,1 @@
-phase: draft-ready | next: research-verification
+phase: verified | next: research-report-writer
