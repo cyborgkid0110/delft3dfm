@@ -1,1 +1,1 @@
-phase: analysis | next: research-doc-analysis
+phase: draft-ready | next: research-verification
